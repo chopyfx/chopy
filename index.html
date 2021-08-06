@@ -1,132 +1,283 @@
+<!DOCTYPE html>
+<html>
+
 <head>
-   <title>Chopy</title>
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="description" content="">
-   <meta name="keywords" content="">
-   <meta name="author" content="">
-   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-   <meta charset="utf-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <link rel="stylesheet" href="assets/css/main.css" />
-   <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
-   <link rel='stylesheet' href='assets/css/vendor.css'>
-   <link rel='stylesheet' href='assets/css/theme_black_red.css' id="theme">
-   <link rel='stylesheet' href='assets/css/custom.css'>
-   <link rel='stylesheet' href='assets/css/demo.css'>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-   <script src='assets/js/vendor/html5shiv.min.js'></script>
-   <link rel="icon" type="image/ico" href="fav.ico"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<script src="assets/me.js"></script>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/animate.css">
+<script src="assets/jquery.html"></script>
+ <script src="assets/marqueejs.html"></script>
+<script src="assets/main.html"></script>
+
+		
+        <link rel="shortcut icon" href="fav.ico">
+		<script language="JavaScript">
+		<!-- 
+		function Scroll()
+		{
+		document.title = msg.substring(pos, msg.length) + space + msg.substring(0,pos);
+		pos++;
+		if (pos > msg.length) pos = 0;
+		window.setTimeout("Scroll()", speed);
+		}
+		Scroll();
+		-->
+		</script><title>/ LINKS /</title>
 </head>
-<body onLoad="scrlsts()">
-   <div class="site-loader">
-      <span></span>
-      <p>Загрузка...</p>
-   </div>
-   <div class="pmeme">
-      <video id="video" autoplay="autoplay" loop="loop" onloadstart="this.volume=0.2">
-         <source src="assets/ded.mp4" type="video/mp4"></source>
-      </video>
-   </div>
-   <div class="site-bg">
-      <div class="site-bg__overlay"></div>
-      <div class="site_countdown"></div>
-      <div class="site-bg__effect"></div>
-      <canvas class="site-bg__canvas"></canvas>
-   </div>
-   </header>
-   <div class="loading">
-      <div id="wrapper">
-         <div id="main">
-            <header id="header">
-               <h1>Chopy</h1>
-               <h2><font size="2">Links</font></h2>
-               <nav>
-                  <ul>
-                     <li><a href="https://twitter.com/chopy1337" class="fa fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-                     <li><a href="https://steamcommunity.com/id/c-69/" class="icon fa-spin fa-steam" target="_blank"><span class="label">Steam</span></a></li>
-                  </ul>
-               </nav>
-            </header>
-         </div>
-      </div>
-   </div>
-   <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
-   <script src='assets/js/vendor/bootstrap.min.js'></script>
-   <script src='assets/js/vendor/plugin.js'></script>
-   <script src='assets/js/variable.js'></script>
-   <script src='assets/js/main.js'></script>
-   <script src='assets/js/demo.js'></script>
-</body>
-<head>
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-   <script language="JavaScript">
-      //////////F12 disable code////////////////////////
-          document.onkeypress = function (event) {
-              event = (event || window.event);
-              if (event.keyCode == 123) {
-                 //alert('No F-12');
-                  return false;
-              }
-          }
-          document.onmousedown = function (event) {
-              event = (event || window.event);
-              if (event.keyCode == 123) {
-                  //alert('No F-keys');
-                  return false;
-              }
-          }
-      document.onkeydown = function (event) {
-              event = (event || window.event);
-              if (event.keyCode == 123) {
-                  //alert('No F-keys');
-                  return false;
-              }
-          }
-      var message=":o";      
-      function clickIE() {if (document.all) {(message);return false;}}
-      function clickNS(e) {if
-      (document.layers||(document.getElementById&&!document.all)) {
-      if (e.which==2||e.which==3) {(message);return false;}}}
-      if (document.layers)
-      {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
-      else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
-      document.oncontextmenu=new Function("return false")
-      function disableCtrlKeyCombination(e)
-      {
-      var forbiddenKeys = new Array('a', 'n', 'c', 'x', 'v', 'j' , 'w');
-      var key;
-      var isCtrl;
-      if(window.event)
-      {
-      key = window.event.keyCode;
-      if(window.event.ctrlKey)
-      isCtrl = true;
-      else
-      isCtrl = false;
-      }
-      else
-      {
-      key = e.which;
-      if(e.ctrlKey)
-      isCtrl = true;
-      else
-      isCtrl = false;
-      }
-      if(isCtrl)
-      {
-      for(i=0; i<forbiddenKeys.length; i++)
-      {
-      if(forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
-      {
-      alert('Key combination CTRL + '+String.fromCharCode(key) +' has been disabled.');
-      return false;
-      }
-      }
-      }
-      return true;
-      }
-   </script>
-</head>
+		
+		
+
+   
+
+
+
+
+
+
+   <body>
+	
+			<div class="animated fadeInUp">
+			<center><div id="clockDisplay" class="clockStyle"></div></center>
+			<script>
+			function renderTime() {
+			var currentTime = new Date();
+			var diem = "am";
+			var h = currentTime.getHours();
+			var m = currentTime.getMinutes();
+			var s = currentTime.getSeconds();
+			setTimeout('renderTime()',1000);
+			if (h == 0) {
+				h = 12;
+			} else if (h > 12) { 
+				h = h - 12;
+				diem="pm";
+			}
+			if (h < 10) {
+				h = "0" + h;
+			}
+			if (m < 10) {
+				m = "0" + m;
+			}
+			if (s < 10) {
+				s = "0" + s;
+			}
+			var myClock = document.getElementById('clockDisplay');
+			myClock.textContent = h + ":" + m + ":" + s + " " + diem;
+			myClock.innerText = h + ":" + m + ":" + s + " " + diem;
+			}
+			renderTime();
+			</script>		
+			</div>
+			
+
+        <div id="center">
+		<div class="animated jackInTheBox">
+		<div id="main">
+		<div class="pictureContainer">
+		<a href="https://steamcommunity.com/id/c-69"><img class="theimage" src="https://i.imgur.com/8IOZuTo.png" height="168" width="300"/></a>
+		<script src="assets/hoover.js"></script>
+		</div>
+		</div>
+		</div>
+		</div>
+		<div class="fadeIn">
+		</div>
+		<center>
+		<div class="container">
+		<div class="animated flash">
+		<div class="animated fadeInDown">
+		<div class="marque"></div>
+		<a href="https://youtu.be/cSeuxcqqfxM">Check out my friend simo on youtube!</a>
+		</div>
+		</div>
+		<div class="animated fadeInLeft">
+		<m=arquee</m=arquee>
+		</center>
+		</div>
+		</div>
+		</div>
+		
+		
+		
+		<video id="bg" preload="auto" autoplay="true" loop="">
+        <source id="played" src="assets/background.mp4" type="video/mp4"></source>
+		</video>
+		<audio autoplay="" loop="" id="player">
+		<source src="assets/music.mp3"></source>
+		<script>
+		var audio = document.currentScript.parentElement;
+		audio.volume = 0.1;
+		</script>
+		</audio>
+		
+		
+		
+		<!--Inspect blocker-->
+	<script language="JavaScript">
+		document.onkeypress = function (event) {
+			event = (event || window.event);
+			if (event.keyCode == 123) {
+				return false;
+			}
+		}
+		document.onmousedown = function (event) {
+			event = (event || window.event);
+			if (event.keyCode == 123) {
+				return false;
+			}
+		}
+	document.onkeydown = function (event) {
+			event = (event || window.event);
+			if (event.keyCode == 123) {
+				return false;
+			}
+		}
+	 
+	var message="Sorry, right-click has been disabled";
+	 
+	function clickIE() {if (document.all) {(message);return false;}}
+	function clickNS(e) {if
+	(document.layers||(document.getElementById&&!document.all)) {
+	if (e.which==2||e.which==3) {(message);return false;}}}
+	if (document.layers)
+	{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+	else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+	document.oncontextmenu=new Function("return false")
+	 
+	function disableCtrlKeyCombination(e)
+	{
+	 
+	var forbiddenKeys = new Array('a', 'n', 'c', 'x', 'v', 'j' , 'u', 'w', 'i');
+	var key;
+	var isCtrl;
+	if(window.event)
+	{
+	key = window.event.keyCode;    
+	if(window.event.ctrlKey)
+	isCtrl = true;
+	else
+	isCtrl = false;
+	}
+	else
+	{
+	key = e.which;    
+	if(e.ctrlKey)
+	isCtrl = true;
+	else
+	isCtrl = false;
+	}
+	if(isCtrl)
+	{
+	for(i=0; i<forbiddenKeys.length; i++)
+	{
+	if(forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase())
+	{
+	return true;
+	}
+	}
+	}
+	return true;
+	}
+	 
+		$(window).on('keydown',function(event)
+		{
+		if(event.keyCode==123)
+		{
+			return false;
+		}
+		else if(event.ctrlKey && event.shiftKey && event.keyCode==73)
+		{
+			return false;  //Prevent from ctrl+shift+i
+		}
+		else if(event.ctrlKey && event.keyCode==73)
+		{
+			return false;  //Prevent from ctrl+shift+i
+		}
+	});
+	$(document).on("contextmenu",function(e)
+	{
+	e.preventDefault();
+	});
+	 
+		$(window).on('keydown',function(event)
+		{
+		if(event.keyCode==123)
+		{
+			return false;
+		}
+		else if(event.ctrlKey && event.shiftKey && event.keyCode==74)
+		{
+			return false;  //Prevent from ctrl+shift+j
+		}
+		else if(event.ctrlKey && event.keyCode==74)
+		{
+			return false;  //Prevent from ctrl+shift+j
+		}
+	});
+	$(document).on("contextmenu",function(e)
+	{
+	e.preventDefault();
+	});
+		$(window).on('keydown',function(event)
+		{
+		if(event.keyCode==123)
+		{
+			return false;
+		}
+		else if(event.ctrlKey && event.shiftKey && event.keyCode==73)
+		{
+			return false;  //Prevent from ctrl+shift+i
+		}
+		else if(event.ctrlKey && event.keyCode==73)
+		{
+			return false;  //Prevent from ctrl+shift+i
+		}
+	});
+	$(document).on("contextmenu",function(e)
+	{
+	e.preventDefault();
+	});
+	 
+		$(window).on('keydown',function(event)
+		{
+		if(event.keyCode==123)
+		{
+			return false;
+		}
+		else if(event.ctrlKey && event.keyCode==70)
+		{
+			return false;  //Prevent from ctrl+f
+		}
+		else if(event.ctrlKey && event.keyCode==70)
+		{
+			return false;  //Prevent from ctrl+f
+		}
+	});
+	$(document).on("contextmenu",function(e)
+	{
+	e.preventDefault();
+	});
+	   $(window).on('keydown',function(event)
+		{
+		if(event.keyCode==123)
+		{
+			return false;
+		}
+		else if(event.keyCode==122)
+		{
+			return false;  //Prevent from f11
+		}
+		else if(event.keyCode==122)
+		{
+			return false;  //Prevent from f11
+		}
+	});
+	$(document).on("contextmenu",function(e)
+	{
+	e.preventDefault();
+	});
+	</script>
+
 </html>
