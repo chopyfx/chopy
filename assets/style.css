@@ -109,7 +109,7 @@ pre {
 .pictureContainer img {
     position: relative;
     top: 0px;
-    animation-duration: .3s;
+    animation-duration: .6s;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
 }
