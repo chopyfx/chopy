@@ -27,56 +27,6 @@
                 moveTitle();
             </script>
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="stails/main.css" />
-<link rel='stylesheet' href='stails/bootstrap.min.css'>
-<link rel='stylesheet' href='stails/vendor.css'>
-<link rel='stylesheet' href='stails/theme_black_red.css' id="theme">
-<link rel='stylesheet' href='stails/custom.css'>
-<link rel='stylesheet' href='stails/demo.css'>
-<body onLoad="scrlsts()">
-   <div class="site-loader">
-      <span></span>
-      <p>Loading links...</p>
-   </div>
-   <div class="pmeme">
-      <video id="video" autoplay="autoplay" loop="loop" onloadstart="this.volume=0.2">
-         <source src="media/video.mp4" type="video/mp4"></source>
-      </video>
-   </div>
-   <div class="site-bg">
-      <div class="site-bg__overlay"></div>
-      <div class="site_countdown"></div>
-      <div class="site-bg__effect"></div>
-      <canvas class="site-bg__canvas"></canvas>
-   </div>
-   </header>
-   <div class="loading">
-      <div id="wrapper">
-         <div id="main">
-            <header id="header">
-               <h1>RfK</h1>
-               <h2><font size="2">Website Template</font></h2>
-               <div class="content">
-<h1>Hello</h1>
-<p>Check out my</p>
-<p><a href="https://steamcommunity.com/id/c-69" target="blank_" style="color: #00F555">STEAM</a></p>
-<p><a href="https://discord.gg/2k85XnRUEG" target="blank_" style="color: #800080">DISCORD</a></p>
-<p><a href="https://www.youtube.com/chopyjdm" target="blank_" style="color: #FF0000">YOUTUBE</a></p>
-<p><a href="https://twitter.com/chopy1337" target="blank_" style="color: #0000FF">TWITTER</a></p>
-<p><a href="https://osu.ppy.sh/users/14854692" target="blank_" style="color: #FFC0CB">OSU</a></p>
-<p><a href="https://www.twitch.tv/chopy1337" target="blank_" style="color: #800080">TWITCH</a></p>
-            </header>
-         </div>
-      </div>
-   </div>
-   <script src="stails/vendor/jquery-2.1.4.min.js"></script>
-   <script src='stails/vendor/bootstrap.min.js'></script>
-   <script src='stails/vendor/plugin.js'></script>
-   <script src='stails/variable.js'></script>
-   <script src='stails/main.js'></script>
-   <script src='stails/demo.js'></script>
-</body>
-</head>
 <body onload="startTime()">
 <div id="txt"></div>
 <body>
@@ -97,6 +47,23 @@ s0.parentNode.insertBefore(s1,s0);
       <p>Loading links...</p>
    </div>
 <!--End of Tawk.to Script-->
+<div class="background-wrap">
+<video id="video-bg-elem" preload="auto" autoplay="true" loop="loop">
+<source src="media/video.mp4" type="video/mp4">
+ document.getElementsByTagName('video')[0].volume = 0.1;
+Video not supported
+</video>
+</div>
+<div class="content">
+<h1>Hello</h1>
+<p>Check out my</p>
+<p><a href="https://steamcommunity.com/id/c-69" target="blank_" style="color: #00F555">STEAM</a></p>
+<p><a href="https://discord.gg/2k85XnRUEG" target="blank_" style="color: #800080">DISCORD</a></p>
+<p><a href="https://www.youtube.com/chopyjdm" target="blank_" style="color: #FF0000">YOUTUBE</a></p>
+<p><a href="https://twitter.com/chopy1337" target="blank_" style="color: #0000FF">TWITTER</a></p>
+<p><a href="https://osu.ppy.sh/users/14854692" target="blank_" style="color: #FFC0CB">OSU</a></p>
+<p><a href="https://www.twitch.tv/chopy1337" target="blank_" style="color: #800080">TWITCH</a></p>
+</div>
 <script language="JavaScript">
             var vid = document.getElementById("video-bg-elem");
             vid.volume = 0.1;
